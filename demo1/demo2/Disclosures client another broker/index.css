@@ -1,0 +1,311 @@
+
+.head-nav {
+    width:100%;
+    height:30px;
+    background: #000;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #FCFCFD;
+}
+
+.head-menu {
+    height:50px;
+    background: #3b3b3b;
+}
+
+.public-container {
+    width:80%;
+    margin:0 auto;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left li {
+    list-style:none;
+    float: left;
+    margin-top:6px;
+    margin-right:20px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.color {
+    background: #1774bb;
+}
+
+.nav-right li {
+    list-style:none;
+    float: left;
+    margin-left:20px;
+    padding-top:9px;
+    padding-bottom:6px;
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-left li {
+    list-style:none;
+    padding-top:16px;
+    padding-bottom:16px;
+    float: left;
+    margin-right:20px;
+    font-family: Arial-BoldMT;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.item {
+    position: relative;
+}
+
+.item:after {
+    position: absolute;
+    content: '';
+    left: 10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.menu-right {
+    float: right;
+}
+
+.menu-right input {
+    float: left;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.body-box {
+    float: left;
+    width:68%;
+}
+
+.head-option {
+    height:39px;
+    border-bottom:2px solid #EEEEEE;
+    margin-bottom:20px;
+}
+
+.public-style {
+    width:78%;
+    margin:0 auto;
+}
+
+.head-option li{
+    list-style:none;
+    float: left;
+    padding-top:14px;
+    padding-bottom:7px;
+    margin-right:20px;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #242424;
+}
+
+.head-option li.public-line {
+    font-family: Arial-BoldMT;
+    font-size: 13px;
+    color: #242424;
+    border-bottom:3px solid red;
+}
+
+.style-left {
+    float: left;
+    width:70%;
+}
+
+table {
+    width:100%;
+    height:72px;
+    margin-bottom:20px;
+}
+table th{
+    border-bottom:4px solid #99CC00;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #808080;
+}
+
+.public-hint {
+    font-family: ArialMT;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+.select {
+    width: 414px;height: 33px;
+    margin-top:5px;
+    display: block;
+    border:1px solid #EEEEEE;
+    -webkit-appearance:none;
+    background: url("../demo-images/ic_keyboard_arrow_down_black_24px.svg") no-repeat scroll right center transparent;
+    padding-right: 14px;
+}
+
+.text {
+    display: block;
+    margin-top:20px;
+    width:414px;
+    height:75px;
+    font-family: ArialMT;
+    font-size: 12px;
+    color: #C0C0C0;
+}
+
+.img{
+    margin-top:21px;
+    display: inline-block;
+    height:18px;
+}
+.imgs{
+    margin-top:10px;
+    display: inline-block;
+    height:18px;
+}
+
+.font {
+    margin-bottom:10px;
+    display: inline-block;
+    ont-family: ArialMT;
+    font-size: 13px;
+    color: #666666;
+}
+
+.body-right {
+    margin-left:24px;
+}
+
+.body-right .annotations{
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+}
+
+.box {
+    border-bottom:1px solid #EEEEEE;
+    padding-bottom:40px;
+}
+
+.prompt {
+    padding-top:41px;
+    display: block;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #666666;
+}
+
+.left {
+    float: left;
+    width:33%;
+    margin-bottom:10px;
+}
+
+.center {
+    float: left;
+    width:33%;
+    margin-bottom:10px;
+}
+
+laber {
+    display: block;
+    font-family: ArialMT;
+    font-size: 12px;
+    color: #4A4A4A;
+    margin-bottom:5px;
+}
+
+.right {
+    float: left;
+    width:34%;
+    margin-bottom:10px;
+}
+
+.annotation {
+    font-family: Arial-ItalicMT;
+    font-size: 11px;
+    color: #A9A9A9;
+    line-height: 11px;
+}
+
+.lefts {
+    float: left;
+    width:50%;
+}
+
+.rights {
+    float: right;
+    width:50%;
+}
+
+.boxs {
+    border-bottom:1px solid #EEEEEE;
+    height:78px;
+    width:100%;
+}
+
+.body-left {
+    margin-left:41px;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+}
+
+.chunk {
+    display: inline-block;
+}
+
+a {
+    font-family: ArialMT;
+    font-size: 13px;
+    line-height: 18px;
+}
+.c {
+    color: #1774bb;
+}
+
+.footer {
+    border-bottom:1px solid #EEEEEE;
+    padding-bottom:41px;
+    margin-bottom:20px;
+}
+
+.style-right {
+    float: left;
+    width:30%;
+}
+
+.right-box {
+    border:1px solid #EEEEEE;
+    height:273px;
+    margin-left:29px;
+    text-align: center;
+}
+
+.hint-cen {
+    margin-top:146px;
+}
+
+.phone {
+    margin-top:20px;
+}
+
+button {
+    height:33px;
+    width:180px;
+    background: #6633cc;
+    color: #FFFFFF;
+    margin-bottom:20px;
+}
+

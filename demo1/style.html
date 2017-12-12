@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <style type="text/css">
+        /**
+    h1{
+        font-size:40px;
+        color: red;
+    }
+        p{
+            font-size:20px;
+            color: blue;
+            font-weight:bold;
+        }
+        span{
+            font-size:50px;
+            color: black;
+        }
+        strong{
+            font-size: 60px;
+            color: gold;
+        }
+        .message{
+            font-size:40px;
+        }
+        textarea{
+            width:200px;
+            height:200px;
+        }
+        .main tr{
+            font-size:20px;
+            color: blue;
+        }
+        label:hover{
+            font-size:30px;
+            color: blue;
+        }
+    .oldPrice{text-decoration:line-through;}**/
+    /*
+    缩进
+    p{text-indent:2em;}
+    行距
+    p{line-height:2em;}
+    文字距
+    h1{letter-spacing:20px;}
+    对齐
+    div{text-align:center;}
+    设置高度
+    display:inline-block;
+    填充
+    padding-top:xxpx;
+    边界距离
+    margin-top:xxpx;
+    移动
+    绝对定位(position: absolute)
+    相对定位(position: relative)
+    固定定位(position: fixed)
+
+    */
+    .static{
+        border:1px solid blue;
+        display: inline-block;
+        position: static;
+        top:20px;
+    }
+    .relative{
+        border:1px solid blue;
+        display: inline-block;
+        position: relative;
+        bottom:0px;
+        right:50px;
+    }
+    .fixed{
+        border:1px solid blue;
+        display: inline-block;
+        position: fixed;
+        bottom:0;
+        left:0;
+        background-color: #555;
+    }
+    body .absolute{
+        border:1px solid blue;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left:20px;
+    }
+        td{
+
+            border-right:3px solid yellow;
+            border-left: 2px solid green;
+            border-top:4px solid blue;
+            border-bottom:5px solid red ;
+            width:50px;
+            height:50px;
+            /*border:2px solid #ccc;*/
+        }
+    p{
+        padding:－10px 13px 0px 13px;
+        margin:-25px 40px 0px 40px;
+    }
+    dl{
+        display: inline-block;
+    }
+    dl>dt{
+        font-size: 20px;
+        color: red;
+    }
+        #img{
+            width:200px;
+            height:200px;
+            position: relative;
+            top:20px;
+            left:25px;
+        }
+        #font{
+            /*border:1px solid red;*/
+            font-size: 18px;
+            font-family:"宋体",sans-serif;
+            width:99%;
+            color: black;
+            position: absolute;
+            text-align: left;
+            top:90px;
+            left:0;
+        }
+        .box {
+            position: relative;
+            background: url("../demo1/images/anye2.jpg") no-repeat;
+            width: 400px;
+            height: 300px;
+            line-height: 25px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            text-align: center;
+            -webkit-background-size: 150px 80px;
+            background-size: 400px 300px;
+
+        }
+        .box-size{
+            position: absolute;
+            font-size: 18px;
+            width:99%;
+            text-align: left;
+            top:50px;
+            left:143px;
+            color: #fff;
+        }
+    body {
+        /**  serif,sans-serif,monospace,fantasy,cursive**/
+        font-family: sans-serif;
+        font-size:30px;
+    }
+        .box-img {
+
+            height:125px;
+        }
+        .box-img1{
+
+            margin-left:20px;
+        }
+        .box-img p{
+            color: #2a5f00;
+            margin-top:7px;
+            margin-left:-140px;
+        }
+        .box-img .box-img1{
+            height:120px;
+            margin-left:-123px;
+        }
+        .float1{
+            float: left;
+        }
+        .float {
+            float: left;
+            width:65%;
+            height:140px;
+        }
+        .float span{
+            float: left;
+            margin-left:-55px;
+            margin-top:120px;
+        }
+        .float img{
+            float: left;
+            margin-top:100px;
+            margin-left:5px;
+        }
+        .box-img em {
+            font-size: 22px;
+            clear: both;
+            padding-top:20px;
+            margin-left:-236px;
+            color: yellow;
+            border-bottom:3px solid yellow;
+        }
+    </style>
+</head>
+<body>
+<div >
+    <p style="margin-left: 150px;margin-top: 70px;font-size: 25px;font-weight:bold;"></p>
+    <img src="../demo1/images/gaoxiao.jpg" class="box-img1">
+</div>
+
+
+<!--
+<div class="box">
+    <div class="box-size">
+        <p>
+            <em>联盟：暗夜流域<br>
+                招战力10万+的盟战大神<br>
+                联盟排名100左右<br>
+                8:30点开紫王<br>
+                欢迎大佬来装逼<br>
+            </em>
+        </p>
+        <div class="box-img clearflont">
+            <em>加盟了才能入群</em>
+            <div class="float1">
+                <p>先加接待小哥哥哟 ⬇️</p>
+                <img src="../demo1/images/anye5.png" class="box-img1">
+            </div>
+            <div class="float">
+                <span>群里面有漂亮小姐姐哟</span>
+                <img src="../demo1/images/anye3.jpg">
+            </div>
+        </div>
+    </div>
+<div id="img">
+    <img src="../demo1/images/anye.png" style="border-radius:1px;opacity:0.9;
+filter:alpha(opacity=40);">
+    <div id="font">
+
+    </div>
+</div>
+
+    <!--
+：<span class="oldPrice">300</span>
+<table class="table">
+    <caption>标题</caption>
+    <tbody class="main">
+    <tr>
+        <th>产品名称</th>
+        <th>价格aa</th>
+    </tr>
+    <tr>
+        <td>耳机</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <td>耳机</td>
+        <td>1000</td>
+    </tr>
+    </tbody>
+</table>
+<form method="post" action=" ">
+    <label>男</label>
+    <input type="radio" name="gender" value="1" />
+    <label>女</label>
+    <input type="radio" name="gender" value="2" />
+    <select multiple="multiple">
+        <option selected="selected" value="看书">看书</option>
+        <option value="旅游">旅游</option>
+        <option value="打牌">打牌</option>
+        <option value="购物">购物</option>
+        <option value="购物">购物</option>
+        <option value="购物">购物</option>
+        <option value="购物">购物</option>
+    </select>
+</form>
+<!--
+<div class="static">
+    <p>static 是默认值。任意 position: static; 的元素不会被特殊的定位</p>
+</div>
+<div class="relative">
+    <p>relative 表现的和 static 一样，除非你添加了一些额外的属性。</p>
+</div>
+<div class="fixed">
+    <p>fixed 一个固定定位</p>
+</div>
+<div class="absolute">
+    <p>这个元素是绝对定位的。它相对于它的父元素定位。</p>
+</div>
+<dl>
+    <dt>标题一</dt>
+    <dd>内容</dd>
+    <dt>标题二</dt>
+    <dd>内容</dd>
+    <dt>标题三</dt>
+    <dd>内容</dd>
+</dl>
+<p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+-->
+<!--<form method="post" action=" ">
+    <label for="textarea"></label>
+    <textarea></textarea>
+    <label for="name">用户名</label>
+    <input type="text" name="name" id="name" value="">
+    <label for="password">密码</label>
+    <input type="password" name="pass" id="password" value="">
+    <input type="submit" name="Submit" value="提交">
+    <input type="reset" name="reset" value="重置">
+</form>-->
+    <!--
+<a href="http://www.imooc.com/code/315" target="_blank">链接</a>
+<h1>aaaa</h1>
+<p>bb<em>bb</em></p>
+<p>cc<span class="aa">cc</span></p>
+<p>dd<strong>dd</strong></p>
+<p>周瑜，不可否认，他是历史上一个了不起的英雄人物！<blockquote>确实也配的上那句"</blockquote><hr /><q>聪明秀出为之英，胆略过人为之雄。</q>"</p>
+<address>长沙aaaaaa</address>
+<div class="message">
+<ul>
+    <li>信息</li>
+    <li>信息</li>
+    ......
+</ul>
+<ol>
+    <li>信息</li>
+    <li>信息</li>
+    ......
+</ol>
+</div>
+<ol>
+    <li>信息</li>
+    <li>信息</li>
+    ......
+</ol>
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+
+.public-style {
+    margin:0 auto;
+    width:80%;
+}
+
+.header-nav {
+    width:100%;
+    height:25px;
+    background: #000;
+}
+
+.header-nav  .nav-items {
+    float: left;
+    margin-top:5px;
+    margin-right:20px;
+    color: #fff;
+}
+
+.header-nav .nav-right {
+    float: right;
+}
+
+.header-nav .nav-right .nav-item {
+    margin-top:5px;
+    float: left;
+    color: #fff;
+    margin-right:20px;
+}
+
+.header-nav .nav-right .nav-item .nav-color {
+    background: blue;
+}
+
+.head-menu {
+    position: relative;
+    height:50px;
+    background: #3b3b3b;
+}
+
+ .head-item {
+    float: left;
+    color: #fff;
+    margin-right:30px;
+
+
+}
+
+.head-item .head-items {
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+.head-menu:after {
+    position: absolute;
+    content: '';
+    left: 548px;
+    bottom: 0;
+    width: 0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:10px solid #fff;
+}
+
+.head-menu .head-right {
+    float: right;
+    margin-top:8px;
+}
+
+.head-menu .head-right .head-inp {
+    margin-right:20px;
+}
+
+.head-hint {
+    height:150px;
+    background: #EEEEEE;
+}
+
+.head-hint .hint-left {
+    float: left;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.head-hint .hint-left .hint-bor {
+    border-bottom:3px solid #99CC00;
+}
+
+.head-hint .hint-right {
+    float: right;
+    margin-top:45px;
+    margin-right:80px;
+}
+
+.head-hint .hint-right .hints {
+    margin-left:20px;
+}
+
+.yellow-color {
+    color: #99CC00;
+}
+
+.body {
+    width:65%;
+    float: left;
+}
+
+.body .body-hint {
+    margin-top:20px;
+}
+
+.call-word {
+    margin-top:10px;
+    padding-bottom:20px;
+    color: #A9A9A9;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.body .body-btn {
+    height:53px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.body .body-btn .btn-left{
+    float: left;
+    margin-top:19px;
+}
+
+.body .body-btn .btn-right {
+    float: right;
+    margin-top:10px;
+}
+
+.body .body-btn .btn-right .btn {
+    width:146px;
+    height:33px;
+    background: #6633CC;
+    color: #fff;
+}
+
+.body .body-doc {
+    margin-top:40px;
+}
+
+.body .file-format {
+    margin-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #EEEEEE;
+    color: #666666;
+}
+
+.body .file-name {
+    float: left;
+    margin-top:20px;
+}
+
+
+.body .file-bor .file-right {
+    float: left;
+    margin-top:20px;
+    margin-right:20px;
+    color: #000;
+}
+.public-style.clearflont .file-right {
+    float: right;
+    margin-top:20px;
+    margin-right:20px;
+    color: #000;
+}
+
+
+
+
+
+
+
+.body .file-bor {
+    border-bottom:1px solid #EEEEEE;
+    height:64px;
+}
+
+.body .file-dow {
+    float: left;
+    margin-right:20px;
+    color: #000;
+}
+
+.body .file-dow .file-short {
+    position: relative;
+    top:6px;
+    padding-bottom:20px;
+    color: blue;
+}
+
+
+.body .file .file-line {
+    margin-top: 20px;
+    height:50px;
+    border:2px dashed #EEEEEE;
+}
+
+.body .file .file-line .file-font {
+    margin-top:12px;
+    text-align: center;
+}
+
+.body .user {
+    margin-top: 40px;
+}
+
+.body .user .user-dis {
+    margin-top:10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.body .user .name {
+    display: block;
+    height:48px;
+    border-bottom:1px solid #EEEEEE;
+    margin-top:15px;
+}
+
+.body .user .names {
+    float: left;
+    margin-top:10px;
+}
+
+.body .user .tool {
+    float: right;
+    margin-top:5px;
+}
+
+.body-right {
+    margin-top: 20px;
+    float: left;
+    width:35%;
+}
+
+.body-phone {
+    margin-left:30px;
+    border:1px solid #EEEEEE;
+    text-align: center;
+    height:273px;
+}
+
+.body-phone .hint-cen {
+    margin-top:146px;
+}
+
+.phone {
+    margin-top:20px;
+}

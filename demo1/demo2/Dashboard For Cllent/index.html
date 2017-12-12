@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard For Client</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../reset.css">
+</head>
+<body>
+<script>
+    function openLogin(){
+        document.getElementById("win").style.display="";
+        document.getElementById("back").style.display="";
+    }
+    function closeLogin(){
+        document.getElementById("win").style.display="none";
+        document.getElementById("back").style.display="none";
+    }
+</script>
+<div class="head-nav">
+    <div class="public-container clearflont">
+        <ul class="nav-left">
+            <li>January 06,2017 02:35 AM ET</li>
+            <li>U.S.Markets Closed</li>
+        </ul>
+        <ul class="nav-right">
+            <li>Suggestions[-]</li>
+            <li>Customer Service</li>
+            <li>1-800-387-2331</li>
+            <li>Find a Branch</li>
+            <li class="color">Log Off</li>
+        </ul>
+    </div>
+</div>
+<div class="head-menu">
+    <div class="public-container clearflont">
+        <ul class="menu-left">
+            <li>Accounts</li>
+            <li>Research</li>
+            <li>Retirement</li>
+            <li>Trade</li>
+            <li class="item">Debt</li>
+        </ul>
+        <span class="menu-right">
+            <input type="text" value="Symbol" style="height: 20px;border-radius: 5px;">
+            <input type="text" value="Search" style="height: 20px;border-radius: 5px;">
+        </span>
+    </div>
+</div>
+<div class="head-option">
+    <div class="public-style clearflont">
+        <ul>
+            <li class="public-line">My Application</li>
+            <li>My Line</li>
+        </ul>
+    </div>
+</div>
+<div class="public-style clearflont">
+    <div class="box-left">
+        <div class="title">
+            <h4>Your to-do list</h4>
+            <p>Please complete your task list.</p>
+        </div>
+        <div class="file">
+            <span>Upload signed application PDE file.</span>
+            <button type="button">Upload</button>
+        </div>
+        <div class="documents">
+            <h4>Documents</h4>
+            <p>Applications documents</p>
+        </div>
+        <div class="form">
+            <h3>Application Form</h3>
+        </div>
+        <div class="dow">
+            <span>app_form.paf</span>
+            <ul>
+                <li><a href="javascript:openLogin();" class="c">⏬</a><div id=back style="display:none; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#000;background: rgba(0,0,0,0.60);filter:alpha(opacity=60)"></div>
+                <div id=win style="display:none; POSITION:absolute; left:50%; top:50%; width:590px; height:245px; margin-left:-300px; margin-top:-200px; border:1px solid #888; background-color:#fff; text-align:center">
+                    <div class="right"><a href="javascript:closeLogin();" class="c">x</a></div>
+                    <div class="b">Upload signed application PDF file.</div>
+                    <div class="a"><div class="size">Drag and drop a file here or click</div></div>
+                    <a href="javascript:closeLogin();" class="c"><button type="button" class="btn">Finish</button></a>
+                </div></li>
+                <li>👀</li>
+            </ul>
+        </div>
+    </div>
+    <div class="box-right">
+        <div class="hint">
+            <h3>Need help ? Contact us</h3>
+            <p class="p">1-800-ETRADE-1</p>
+            <p>(1-800-387-2331)</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

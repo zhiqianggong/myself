@@ -1,0 +1,264 @@
+
+.header {
+    margin-top:20px;
+    position: relative;
+    margin:0 auto;
+    height:25px;
+    background: #000;
+}
+
+.header .message {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size:6px;
+    color: #fff;
+}
+
+.header .message .mes {
+    float: left;
+    margin-top: 5px;
+    margin-left: 22px;
+    font-size:6px;
+}
+
+.header .call-word {
+    float: right;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.header .call-word .hint{
+    float: left;
+    margin-top:5px;
+    margin-right: 20px;
+}
+
+.hints {
+    background: blue;
+}
+
+.header-btn {
+    position: relative;
+    margin:0 auto;
+    background: #3b3b3b;
+    height:40px;
+    color: #fff;
+}
+
+.header-btn .header-item {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.header-btn .header-item .item{
+    float: left;
+    margin-top:15px;
+    margin-left:20px;
+    margin-right: 30px;
+}
+
+.header-btn .header-item :after {
+    position: absolute;
+    content: '';
+    left: 560px;
+    bottom: 0;
+    width: 0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:10px solid #fff;
+}
+
+.header-btn .header-items{
+    margin-top: 10px;
+    float: right;
+    margin-right:70px;
+
+}
+
+.header-btn .header-items .items{
+    margin-left:50px;
+}
+
+.header-menu{
+    position:relative;
+    height:44px;
+    border-bottom: 3px solid #EEEEEE;
+    margin-left:3%;
+}
+
+.header-menu .menus{
+    float: left;
+    margin-top:15px;
+    margin-left:30px;
+}
+
+.header-menu .menus .size{
+    padding-bottom:10px;
+    border-bottom:3px solid red;
+}
+
+.body-hint {
+    position:relative;
+    height:150px;
+    background: #F2F2F2;
+}
+
+.body-hint .call-word {
+    float: left;
+    height:40px;
+    margin-top:45px;
+    margin-left:220px;
+    font-size: 22px;
+}
+
+.body-hint .call-word .font-color{
+    display: inline-block;
+    border-bottom:2px solid #99CC00;
+    color: #99CC00;
+    margin-right:5px;
+}
+
+.body-hint .call-word .f-color{
+    border-bottom: 0;
+    color: #99CC00;
+}
+
+.height {
+    float: right;
+    margin-right:193px;
+    margin-top:43px;
+    font-size:32px;
+}
+
+.height .font-z {
+    margin-top:10px;
+    margin-left:29px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.56);
+}
+
+.height .height-z {
+    margin-right:10px;
+    color: #99CC00;
+}
+
+.body-height{
+    position: relative;
+    margin-left: 5%;
+    width:60%;
+}
+
+.body-height .public-color {
+    color: #1618bb;
+}
+
+.body-height .public-colour {
+    color: #A9A9A9;
+}
+
+.body-height .line{
+    margin-top:20px;
+
+}
+
+.body-height .body-col{
+    margin-top:20px;
+    border-top:2px solid #EEEEEE;
+    border-bottom:2px solid #EEEEEE;
+    height:50px;
+}
+
+.body-height .colour{
+    display: inline-block;
+    margin-top:18px;
+    color: #A9A9A9;
+}
+
+.body-height .public-tb {
+    border-bottom:2px solid #EEEEEE;
+    height:70px;
+}
+
+.body-height .public-tb .font-text {
+    color: #000;
+    float: left;
+    margin-top: 25px;
+    margin-left:50px;
+}
+
+.body-height .public-tb .font-botton {
+    float: right;
+    color: #1618bb;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.body-height .public-tb .font-botton .body-item {
+    float: left;
+    margin-right:20px;
+}
+
+.body-height .public-tb .font-botton .body-item .move {
+    display: inline-block;
+    margin-top:5px;
+}
+
+.right {
+    float: right;
+    width:30%;
+    height:300px;
+    margin-left:50px;
+}
+
+.right .right-size {
+    display:inline-block;
+    float: left;
+    border:1px solid #EEEEEE;
+    margin-right:50px;
+    height:273px;
+}
+
+.right .right-size .a {
+    margin-top:143px;
+    margin-left:37px;
+    margin-right:37px;
+}
+
+.right .right-size .b {
+    display: inline-block;
+    margin-left:60px;
+    margin-bottom:38px;
+}
+
+.docs{
+    display:inline-block;
+    margin-top:10px;
+}
+
+.public-cols {
+    display: block;
+    font-family: ArialMT;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.docc {
+    border-bottom:3px solid #EEEEEE;
+    padding-bottom:30px;
+}
+
+.footer-btn {
+    display: inline-block;
+    margin-top:20px;
+}
+
+.footer-button {
+    width:182px;
+    height:33px;
+    color: #fff;
+    background: #6633CC;
+}

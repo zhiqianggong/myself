@@ -1,0 +1,21 @@
+@charset "utf-8";
+.a{
+    font-size:30px;
+    color: #000;
+    text-align: center;
+}
+nav ul{
+    float:left;
+    margin: 10px;
+    paddin: 0 0 0 0;
+    width: 920px;
+    list-style: none;
+}
+
+
+nav ul li{
+    display: inline;
+}
+nav li a:hover{
+    color: #2a5f00;
+}

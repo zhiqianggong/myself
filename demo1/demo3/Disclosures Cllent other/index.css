@@ -1,0 +1,311 @@
+
+.color {
+    background: #000;
+    color: #FFFFFF;
+}
+
+.color1 {
+    background: #3b3b3b;
+    color: #FFFFFF;
+}
+
+.navbar-nav a {
+    color:white;
+}
+
+.bck-color1 {
+    background: #1774BB;
+}
+
+.padding-t5 {
+    padding-top:5px;
+}
+
+.padding-btm5 {
+    padding-bottom:5px;
+}
+
+.margin-l20{
+    margin-left:20px;
+}
+
+.margin-r20 {
+    margin-right:20px;
+}
+
+.border-btm1 {
+    border-bottom:1px solid #EEEEEE;
+}
+
+.height50 {
+    height:50px;
+}
+
+.height38 {
+    height:38px;
+}
+
+.border {
+    border:1px solid red;
+}
+.menu-triangle {
+    position: relative;
+}
+
+.menu-triangle:after {
+    position: absolute;
+    content: '';
+    left: 22px;
+    bottom: 0;
+    width: 0;
+    height:0;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:10px solid #fff;
+}
+
+.f20{
+    font-family: ArialMT;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.padding-t10 {
+    padding-top:10px;
+}
+
+.height40 li{
+    color: #666666;
+
+}
+
+.padding-btm5{
+    padding-bottom:5px;
+}
+
+.border-btm3 {
+    border-bottom:3px solid red;
+}
+
+.width25{
+    width:25%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.main-select1 {
+    padding-left: 0;
+    list-style:none;
+    background: #FFFFFF;
+    float: left;
+    width:25%;
+}
+.select-size {
+    display: block;
+    background: #FFFFFF;
+    text-align: center;
+    padding-top:27px;
+    padding-bottom:25px;
+    border-bottom:10px solid #99CC00;
+    color: #808080;
+    margin-bottom:20px;
+}
+.f13px{
+    font-family: ArialMT;
+    font-size: 13px;
+}
+
+.margin-l1{
+    margin-left:1.5px;
+}
+
+.margin-t20 {
+    margin-top:20px;
+}
+
+.row span{
+    display: block;
+}
+
+.input-text {
+    width: 100%;
+    height:33px;
+}
+
+.input-box {
+    width:49%;
+}
+
+.input-left {
+    position: relative;
+}
+
+.input-boxs {
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+
+.input-group input {
+    padding-left:10px;
+}
+
+.margin-btm5{
+    margin-bottom:5px;
+}
+.margin-t5{
+    margin-top:5px;
+}
+
+.padding-t40 {
+    padding-top:40px;
+}
+
+.border-t1{
+    border-top:1px solid #EEEEEE;
+}
+
+.margin-btm15{
+    margin-bottom:15px;
+}
+
+.f13{
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+}
+
+.checkboxs {
+    display: block;
+}
+
+.checkboxs span{
+    display: inline-block;
+}
+
+.margin-l10 {
+    margin-left:10px;
+}
+
+.width50 {
+    width:50%;
+}
+
+.padding-btm40 {
+    padding-bottom:40px;
+}
+
+.color2 {
+    color: #1774BB;
+}
+
+.display span{
+    display: inline-block;
+}
+
+.buttom {
+    width: 180px;height: 33px;background: #6633cc;color: #fff;
+}
+
+.footer {
+    width:384px;
+    margin-bottom:50px;
+}
+
+.help {
+    margin-top:40px;
+    margin-left:0;
+    width:80px;
+    height:80px;
+}
+
+.right-box p {
+    height:10px;
+}
+
+.right-box {
+    border:1px solid #EEEEEE;
+    height:273px;
+    margin-left:29px;
+    text-align: center;
+}
+
+.margin-r10 {
+    margin-right:10px;
+}
+
+.width{
+    width:100%;
+}
+
+.padding-r10 {
+    padding-right:10px;
+}
+
+.margin-btm20 {
+    margin-bottom:20px;
+}
+.checkboxFive {
+    position: relative;
+}
+
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #eee;
+    border:1px solid #ddd;
+}
+
+.padding-t20 {
+    padding-top:20px;
+}
+.dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 5px;
+    clear: left;
+    margin: 0px 0 0;
+}
+
+.caret {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+}
+
+.dropdown-toggle {
+    float: left;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: block;
+    top: 95%;
+    width:100%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 0px 12px rgba(0,0,0,0);
+    border-radius: 0px;
+    border:2px solid #D8D8D8;
+}
+
+.margin-btm40 {
+    margin-bottom:40px;
+}
+
+.input-group input {
+    -webkit-box-shadow: 0 0px 12px rgba(0,0,0,0);
+    border-left: 2px solid #DBDBDB ;
+    border-top: 2px solid #DBDBDB ;
+    border-right: 2px solid #DBDBDB ;
+}

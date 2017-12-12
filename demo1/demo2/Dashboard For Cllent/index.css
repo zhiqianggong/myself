@@ -1,0 +1,267 @@
+
+.head-nav {
+    width:100%;
+    height:30px;
+    background: #000;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #FCFCFD;
+}
+
+.head-menu {
+    height:50px;
+    background: #3b3b3b;
+}
+
+.public-container {
+    width:80%;
+    margin:0 auto;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left li {
+    float: left;
+    margin-top:6px;
+    margin-right:20px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.color {
+    background: #1774bb;
+}
+
+.nav-right li {
+    float: left;
+    margin-left:20px;
+    padding-top:9px;
+    padding-bottom:6px;
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-left li {
+    padding-top:16px;
+    padding-bottom:16px;
+    float: left;
+    margin-right:20px;
+    font-family: Arial-BoldMT;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.item {
+    position: relative;
+}
+
+.item:after {
+    position: absolute;
+    content: '';
+    left: 10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.menu-right {
+    float: right;
+}
+
+.menu-right input {
+    float: left;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.head-option {
+    height:39px;
+    border-bottom:2px solid #EEEEEE;
+    margin-bottom:20px;
+}
+
+.public-style {
+    width:78%;
+    margin:0 auto;
+}
+
+.head-option li{
+    float: left;
+    padding-top:14px;
+    padding-bottom:7px;
+    margin-right:20px;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #242424;
+}
+
+.head-option li.public-line {
+    font-family: Arial-BoldMT;
+    font-size: 13px;
+    color: #242424;
+    border-bottom:3px solid red;
+}
+/** **/
+
+.box-left {
+    float: left;
+    width:70%;
+}
+
+.title {
+    height:59px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.title p {
+    margin-top:10px;
+    font-family: ArialMT;
+    font-size: 15px;
+    color: #A9A9A9;
+}
+
+.file {
+    height:53px;
+    border-bottom:1px solid #EEEEEE;
+    margin-bottom:40px;
+}
+
+.file span{
+    float: left;
+    margin-top:19px;
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    color: #444444;
+}
+
+.file button {
+    float: right;
+    width:180px;
+    height:33px;
+    margin-top:10px;
+    background: #6633cc;
+    color: #FFF;
+}
+
+.documents {
+    height:59px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.documents p {
+    margin-top:10px;
+    font-family: ArialMT;
+    font-size: 15px;
+    color: #A9A9A9;
+}
+
+.form {
+    height:64px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.form h3{
+    display: inline-block;
+    margin-top:20px;
+    font-family: ArialMT;
+    font-size: 16px;
+    color: #666666;
+}
+
+.dow {
+    height:64px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.dow span{
+    float: left;
+    margin-top:20px;
+}
+
+.dow ul{
+    float: right;
+}
+
+.dow ul li{
+    float: left;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.right {
+    position: relative;
+    display:block;
+    margin-top:10px;
+    margin-right:15px;
+    text-align: right;
+    font-size:20px;
+}
+.b {
+    margin-top:10px;
+    margin-bottom: 40px;
+    font-family: ArialMT;
+    font-size: 14px;
+    color: #666666;
+}
+.a {
+    position: relative;
+    height: 50px;
+    width: 505px;
+    margin: auto;
+    border: 2px dashed #EEEEEE;
+}
+.size{
+    position: relative;
+    top:18px;
+    font-family: ArialMT;
+    font-size: 13px;
+    color: #A9A9A9;
+}
+.c:link {
+    color: #A9A9A9;
+    text-decoration:none;
+}
+.btn {
+    border:1px solid red;
+    margin:auto;
+    margin-top:39px;
+    height:33px;
+    width:180px;
+    background: #6633cc;
+    border:1px solid red;
+    font-family: ArialMT;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.box-right {
+    float: left;
+    width:30%;
+}
+
+.hint {
+    border:1px solid #EEEEEE;
+    margin-left:29px;
+    width:263px;
+    height:273px;
+    text-align: center;
+}
+
+.hint h3 {
+    margin-top:148px;
+    font-family: ArialMT;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.hint .p{
+    margin-top:20px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>认识html标签</title>
+    <link rel="stylesheet" href="reset.css">
+    <style type="text/css">
+        body {
+            /**  serif,sans-serif,monospace,fantasy,cursive
+            
+        }
+   
+        .right {
+            position: relative;
+            display:block;
+            margin-top:10px;
+            margin-right:15px;
+            text-align: right;
+            font-size:20px;
+        }
+        .b {
+            margin:0 auto;
+            width:90%;
+            font-family: ArialMT;
+            font-size: 14px;
+            color: #666666;
+        }
+        .c:link {
+            color: #A9A9A9;
+            text-decoration:none;
+        }
+        .btn {
+            margin:auto;
+            margin-top:20px;
+            height:33px;
+            width:180px;
+            background: #6633cc;
+            border:1px solid red;
+        }
+        .exit {
+            font-family: ArialMT;
+            font-size: 15px;
+            color: #FFFFFF;
+        }
+        .f{
+            height:15px;
+        }
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .fr img {
+            display: inline-block;
+            width:15px;
+            height:15px;
+        }
+        .fr img+span{
+            height:15px;
+            font-family: ArialMT;
+            font-size: 13px;
+            color: #1774BB;
+            letter-spacing: 0;
+            margin-left:5px;
+        }
+        .f13 {
+            margin-top:10px;
+            text-align: left;
+            clear: both;
+            font-family: ArialMT;
+            font-size: 13px;
+            color: #666666;
+        }
+        table {
+            margin-top:32px;
+            width:100%;
+            border-top:1px solid #EEEEEE;
+        }
+        table th {
+            height:48px;
+            border-bottom:1px solid #EEEEEE;
+            font-family: ArialMT;
+            font-size: 13px;
+            color: #666666;
+        }
+        table td{
+            height:48px;
+            font-family: ArialMT;
+            font-size: 13px;
+            color: #666666;
+            border-bottom:1px solid #EEEEEE;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+    function openLogin(){
+        document.getElementById("win").style.display="";
+        document.getElementById("back").style.display="";
+    }
+    function closeLogin(){
+        document.getElementById("win").style.display="none";
+        document.getElementById("back").style.display="none";
+    }
+</script>
+<div style="width: 50px;">
+    <p></p>
+</div>
+<a href="javascript:openLogin();" class="c">⏬</a>
+<div id=back style="display:none; position:absolute; left:0; top:0; width:100%; height:100%; background-color:#000;background: rgba(0,0,0,0.60);filter:alpha(opacity=60)"></div>
+<div id=win style="display:none; POSITION:absolute; left:50%; top:50%; width:590px; height:480px; margin-left:-300px; margin-top:-200px; border:1px solid #888; background-color:#fff; text-align:center">
+    <div class="right"><a href="javascript:closeLogin();" class="c">x</a></div>
+    <div class="b">
+        <div class="f">
+            <div class="fl">
+                Upload signed application PDF file.
+            </div>
+            <div class="fr">
+                <div class=""><img src="../demo1/images/pen.svg"></img><span>Edit</span></div>
+            </div>
+        </div>
+        <div class="f13">
+            <p>Please verify your information below is accurate before submit your application.</p>
+        </div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>John M Smith</th>
+            </tr>
+            <tr>
+                <td>SSN</td>
+                <td>546754352</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>01/11/1982</td>
+            </tr>
+            <tr>
+                <td>Collateral Account(s)</td>
+                <td>4334-4234</td>
+            </tr>
+            <tr>
+                <td>Linked Bank Account(s)</td>
+                <td>00883777789</td>
+            </tr>
+            <tr>
+                <td>Purpose of Line</td>
+                <td>General Household Purposes</td>
+            </tr>
+        </table>
+    </div>
+    <a href="javascript:closeLogin();" class="c"><button type="button" class="btn"><span class="exit">Submit</span></button></a>
+</div>
+<!--
+<input type="checkbox" name="a" value="">
+<input type="checkbox" name="d" value="d">
+<em>aaatt</em>
+<table width="100%" border="1">
+    <colgroup>
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="30%">
+        <col width="10%">
+    </colgroup>
+    <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Price</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+        <td>$53</td>
+        <td>$53</td>
+    </tr>
+    <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+        <td>$53</td>
+        <td>$53</td>
+    </tr>
+    <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+        <td>$53</td>
+        <td>$53</td>
+    </tr>
+    <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+        <td>$53</td>
+        <td>$53</td>
+    </tr>
+</table>          -->
+</body>
+
+
+</html>

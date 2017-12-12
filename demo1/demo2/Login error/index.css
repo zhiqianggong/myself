@@ -1,0 +1,83 @@
+
+.header{
+    position: relative;
+    margin: 0 auto;
+    width:219px;
+    height:35px;
+    top:270px;
+}
+
+.header .font-size{
+    display: inline-block;
+    font-size:30px;
+}
+
+.center{
+    position: relative;
+    margin: 0 auto;
+    width:394px;
+    top:350px;
+}
+
+.book{
+    border:1px solid #DBDBDB;
+    width:394px;
+    height:34px;
+    margin-bottom:8px;
+}
+
+.call-word {
+    float: right;
+    text-align: right;
+    color: red;
+    width:394px;
+    margin-bottom:20px;
+}
+
+.btn{
+    width:394px;
+    height:20px;
+}
+
+.btn .option{
+    margin-top: 5px;
+}
+
+.btn .font-size {
+    float: left;
+    font-size:5px;
+    margin-top:1px;
+}
+
+
+.coils{
+    display:inline-block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.btn .btn-sizes {
+    float: right;
+    font-size:5px;
+    margin-top:5px;
+}
+.coil{
+    border-bottom:1px solid #000;
+}
+
+.footer-btn{
+    position:relative;
+    margin:0 auto;
+    width:394px;
+    top:400px;
+}
+
+.footer-btn .fefer {
+    border:1px solid blue;
+    width:394px;
+    height: 33px;
+    background: #6633CC;
+    color: #fff;
+}
+

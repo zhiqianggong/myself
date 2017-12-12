@@ -1,0 +1,36 @@
+/*重置按钮*/
+body,biv,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,a,p,textarea{
+    margin: 0;
+    padding: 0;
+    font-family: "宋体", sans-serif;
+}
+
+ol,ul,li{
+    list-style:none;
+}
+/*清除下划线*/
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+img{
+    border: none;
+    display: block;
+}
+
+clearflont{
+    zoom: 1;
+}
+
+clearflont:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+
+
