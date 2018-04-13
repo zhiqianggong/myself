@@ -1,0 +1,54 @@
+.panel {
+  margin-bottom: 0;
+}
+
+.panel-list {
+  > li {
+    line-height: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #EEEEEE;
+    list-style: none;
+    /* display: inline-block;
+     margin-bottom: 0px;*/
+    > h5 {
+      margin-top: 0;
+      width: 100%;
+      > span {
+        margin: 0;
+        font-family: ArialMT;
+        font-size: 12px;
+        color: #A9A9A9;
+      }
+    }
+    .panel-list > li .panel-name > h5 {
+      margin: 0;
+    }
+    & textarea {
+      margin: 10px 0;
+      height: 100px;
+    }
+    > h4 {
+      color: $Font-color-light4;
+      font-size: $font-16;
+    }
+  }
+}
+
+.panel-header {
+  margin-bottom: 0px;
+  padding: 20px 0 10px 0;
+}
+
+.panel-collapse {
+  border-top: 1px solid #EEEEEE;
+}
+
+.declarations {
+  padding-bottom: 24px;
+  & .explain {
+    padding: 20px 0 40px 0;
+    color: $Font-color;
+    font-size: $font-14;
+    border-bottom: 1px solid #EEE;
+  }
+}

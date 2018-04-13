@@ -1,0 +1,70 @@
+.select {
+  background: $Font-color-light6;
+  & .form-control[readonly] {
+    background: $Font-color-light6;
+  }
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+  margin-left: -20px;
+}
+
+.checkboxFive {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkboxFive>input[type=checkbox]+.label, .checkboxFive>input[type=checkbox]+label, .radio>input[type=radio]+.label, .radio>input[type=radio]+label {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 32px;
+}
+
+.checkboxFive>input[type=checkbox]+.label:before, .checkboxFive>input[type=checkbox]+label:before {
+  content: "";
+  top: 2px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  box-shadow: inset 0 0 0 7px $Font-color-light6, inset 0 0 0 7px #9c0;
+}
+
+.checkboxFive>input[type=checkbox]+.label:before, .checkboxFive>input[type=checkbox]+label:before, .radio>input[type=radio]+.label:before, .radio>input[type=radio]+label:before {
+  pointer-events: none;
+  display: inline-block;
+  position: absolute;
+  left: 1px;
+  vertical-align: middle;
+  font-size: $font-14;
+  color: $Font-color-light6;
+  border: 2px solid $Background-color-light8;
+}
+
+.checkboxFive>input[type=checkbox]:checked+.label:before, .checkboxFive>input[type=checkbox]:checked+label:before {
+  border: 1px solid #9c0;
+  box-shadow: inset 0 0 0 0 $Font-color-light6, inset 0 0 0 9px #9c0;
+}
+
+.checkboxFive>input[type=checkbox]+.label:after, .checkboxFive>input[type=checkbox]+label:after {
+  /*opacity: 0.0;*/
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: transparent;
+  top: 7px;
+  left: 5px;
+  border: 2px solid $Font-color-light6;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

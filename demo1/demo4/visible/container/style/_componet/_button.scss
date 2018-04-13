@@ -1,0 +1,134 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: $font-16;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid transparent;
+  padding: 0 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  touch-action: manipulation;
+  outline: none;
+  &[disabled]:hover, &[readonly]:hover {
+    box-shadow: none;
+  }
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #FFF;
+}
+
+.btn-primary {
+  width: 180px;
+  height: 38px;
+  line-height: 36px;
+  background: $Default-color;
+  &:hover {
+    background: $Default-color-light1;
+    border-color: $Default-color-light1;
+  }
+  &:focus, &:active {
+    background: $Default-color-light2;
+    border-color: $Default-color-light2;
+  }
+  &:focus:active {
+    background: $Default-color-light2;
+    border: 0px;
+  }
+}
+
+.btn-default {
+  width: 180px;
+  height: 38px;
+  line-height: 36px;
+  background: #FFF;
+  border: 2px solid $Default-color-light1;
+  color: $Default-color-light1;
+  &:hover {
+    background: $Background-color-light9;
+    border: 2px solid $Default-color-light1;
+    color: $Default-color-light1;
+  }
+  &:focus, &:active {
+    background: $Background-color-light8;
+    border: 2px solid $Default-color-light1;
+    color: $Default-color-light1;
+  }
+  &:focus:active {
+    background: $Background-color-light8;
+    border: 2px solid $Default-color-light1;
+    color: $Default-color-light1;
+  }
+}
+
+.cutting-line {
+  border-top: 1px solid $Background-color-light8;
+  padding-top: 20px;
+  & .col-md-6 {
+    margin-left: -15px;
+    & button:last-child {
+      margin-left: 25px;
+    }
+  }
+}
+ .btn-group {
+    & button {
+      margin-left:25px;
+    }
+  }
+.btn-group .btn+.btn {
+  margin-left:25px;
+}
+
+.btn-box {
+  border-top: 1px solid #EEE;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.btn-dropdowns {
+
+  & button,.btn+.btn {
+    margin-left:0;
+    float: right;
+  }
+  & button:first-child {
+    width:146px;
+  }
+  & button:last-child {
+    width:34px;
+    border-left:1px solid blue;
+    & .glyphicon-chevron-down {
+      right: 6px;
+      top: 4px;
+    }
+    &:focus {
+      border-left:1px solid blue;
+      outline: 0;
+      background: #0854ce;
+    }
+  }
+}
+.btn-dropdowns>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+  width:34px;
+  border-left:1px solid blue;
+  & .glyphicon-chevron-down {
+    right: 6px;
+    top: 4px;
+  }
+  &:focus {
+    border-left:1px solid blue;
+    outline: 0;
+    background: #0854ce;
+  }
+}
+
+.application-control>ul>li .application-btn .open+ .dropdown-list {
+  display: block;
+}

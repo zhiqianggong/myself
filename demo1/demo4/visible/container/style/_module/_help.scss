@@ -1,0 +1,45 @@
+.help {
+  border: 1px solid #EEEEEE;
+  height: 273px;
+  text-align: center;
+  > img {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.line-help {
+  border: 1px solid #EEE;
+  padding: 40px 0 40px 40px;
+  margin: 32px 0 30px;
+  & li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    &:before {
+      content: '';
+      background: #4a90e2;
+      height: 10px;
+      width: 10px;
+      border-radius: 2px;
+      position: absolute;
+      left: -20px;
+      top: 6px;
+    }
+    &.line-green:before {
+      background: #4aa2a3;
+    }
+    &.line-yellow:before {
+      background: #f2dc17;
+    }
+    &.line-red:before {
+      background: #ff5593;
+    }
+    &.line-purple:before {
+      background: #b137e8;
+    }
+  }
+}

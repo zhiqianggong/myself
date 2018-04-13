@@ -1,0 +1,158 @@
+// color
+
+$Default-color-light1: lighten($Default-color, 10%); //#5a97f7
+$Default-color-light2: lighten($Default-color, 20%); //#8ab5fa
+$Default-color-light3: lighten($Default-color, 30%); //#bbd4fc
+$Default-color-light4: lighten($Default-color, 40%); //#ecf3fe
+$Default-color-dark1: darken($Default-color, 10%); //#0a5de1
+$Default-color-dark2: darken($Default-color, 20%); //#0849b0
+$Default-color-dark3: darken($Default-color, 30%); //#06357f
+$Default-color-dark4: darken($Default-color, 40%); //#04214e
+
+$Positive-color-light1: lighten($Positive-color, 10%); //#85d888
+$Positive-color-light2: lighten($Positive-color, 20%); //#abe5ae
+$Positive-color-light3: lighten($Positive-color, 30%); //#d2f1d3
+$Positive-color-light4: lighten($Positive-color, 39%); //#f9fdf9
+$Positive-color-dark1: darken($Positive-color, 10%); //#3bbc40
+$Positive-color-dark2: darken($Positive-color, 20%); //#2f9533
+$Positive-color-dark3: darken($Positive-color, 30%); //#236e26
+$Positive-color-dark4: darken($Positive-color, 40%); //#174718
+
+$Warning-color-light1: lighten($Warning-color, 10%); //#fdc346
+$Warning-color-light2: lighten($Warning-color, 20%); //#fdd479
+$Warning-color-light3: lighten($Warning-color, 30%); //#fee4ab
+$Warning-color-light4: lighten($Warning-color, 34%); //#fff4dd
+$Warning-color-dark1: darken($Warning-color, 10%); //#da9603
+$Warning-color-dark2: darken($Warning-color, 20%); //#a87402
+$Warning-color-dark3: darken($Warning-color, 30%); //#765102
+$Warning-color-dark4: darken($Warning-color, 30%); //#432e01
+
+$Negative-color-light1: lighten($Negative-color, 10%); //#ff7f7f
+$Negative-color-light2: lighten($Negative-color, 20%); //#ffb2b2
+$Negative-color-light3: lighten($Negative-color, 30%); //#ffe5e5
+$Negative-color-light4: lighten($Negative-color, 34%); //#fff4f4
+$Negative-color-dark1: desaturate(darken($Negative-color, 10%), 20%); //#e83030
+$Negative-color-dark2: desaturate(darken($Negative-color, 20%), 20%); //#ce1717
+$Negative-color-dark3: desaturate(darken($Negative-color, 30%), 20%); //#a01212
+$Negative-color-dark4: desaturate(darken($Negative-color, 40%), 20%); //#720d0d
+
+$Disastrous-color-dark1: darken($Disastrous-color, 10%);
+
+$Font-color-light6: lighten($Font-color, 90%); //#fff
+$Font-color-light5: lighten($Font-color, 75%); //#dce1e9
+$Font-color-light4: lighten($Font-color, 60%); //#adbacb
+$Font-color-light3: lighten($Font-color, 45%); //#7e93ae
+$Font-color-light2: lighten($Font-color, 30%); //#566c89
+$Font-color-light1: lighten($Font-color, 15%); //#39475a
+
+$Background-color-light10: lighten($Background-color, 80%); //#f8fafc
+$Background-color-light9: lighten($Background-color, 78%); //#f2f5f8
+$Background-color-light8: lighten($Background-color, 75%); //#e7edf3
+$Background-color-light7: lighten($Background-color, 70%); //#d7e0ea
+$Background-color-light6: lighten($Background-color, 60%); //#b5c6d9
+$Background-color-light5: lighten($Background-color, 50%); //#93acc8
+$Background-color-light4: lighten($Background-color, 40%); //#7192b7
+$Background-color-light4: lighten($Background-color, 40%); //#7192b7
+$Background-color-light3: lighten($Background-color, 30%); //#5378a2
+$Background-color-light2: lighten($Background-color, 20%); //#415f81
+$Background-color-light1: lighten($Background-color, 10%); //#30465f
+
+$Border-color-light1: lighten($Border-color, 7%); //#c1cbd9
+$Border-color-light2: lighten($Border-color, 14%); //#d7dde6
+$Border-color-light3: lighten($Border-color, 21%); //#edf0f4
+
+// font size
+$font-14: 14px;
+$font-16: 16px;
+$font-18: 18px;
+$font-22: 22px;
+$font-26: 26px;
+$font-30: 30px;
+$font-20: 20px;
+$font-24: 24px;
+$font-28: 28px;
+$font-32: 32px;
+$font-40: 40px;
+$font-56: 56px;
+$font-72: 72px;
+$font-88: 88px;
+$font-96: 96px;
+
+
+//radius
+$border-radius: 3px;
+
+//box-shadow
+$box-shadow: 0 1px 4px 0 rgba(31, 45, 61, 0.15);
+
+//== Media queries breakpoints
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs: 480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min: $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone: $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet: $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md: 992px !default;
+$screen-md-min: $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop: $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg: 1200px !default;
+$screen-lg-min: $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop: $screen-lg-min !default;
+
+$breakpoints: (extra-small:$screen-xs, small: $screen-sm, medium: $screen-md, large: $screen-lg);
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns: 12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width: 30px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint: $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+//== Container sizes
+//
+//## Define the maximum width of `.container` for different screen sizes.
+
+// Small screen / tablet
+$container-tablet: (720px + $grid-gutter-width) !default;
+//** For `$screen-sm-min` and up.
+$container-sm: $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop: (940px + $grid-gutter-width) !default;
+//** For `$screen-md-min` and up.
+$container-md: $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop: (1140px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg: $container-large-desktop !default;

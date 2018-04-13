@@ -1,0 +1,24 @@
+.names {
+  height: 48px;
+  border: 1px solid $Background-color-light9;
+  border-left: 4px solid #6633CC;
+  & h4 {
+    margin: 15px 0 0 20px;
+  }
+}
+
+.hint-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: $Positive-color;
+  font-size: 11px;
+  text-align: right;
+}
+
+.form-title {
+  height: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: $font-16;
+}
