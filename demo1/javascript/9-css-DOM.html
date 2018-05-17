@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            color: grey;
+            font-family: "Arial", sans-serif;
+        }
+        body {
+            font-family: "Helvetica","sans-serif";
+            background-color: #fff;
+            color: #000;
+        }
+        table {
+            margin: auto;
+            padding: .2em;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        th {
+            font-weight: normal;
+            font-style: italic;
+            text-align: left;
+            border: 1px dotted #699;
+            background-color: #9cc;
+            color: #000;
+        }
+        th,td {
+            width:10em;
+            padding: .5em;
+        }
+
+    </style>
+</head>
+<body>
+<p id="example">An example of a paragraph</p>
+<table>
+    <caption>Itinerary</caption>
+    <thead>
+    <tr>
+        <th>When</th>
+        <th>Where</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>June 9th</td>
+        <td>Portland, <abbr title="Oregon">OR</abbr></td>
+    </tr>
+    <tr>
+        <td>June 10th</td>
+        <td>Seatitle, <abbr title="Washington">WA</abbr></td>
+    </tr>
+    <tr>
+        <td>June 12th</td>
+        <td>Sacramento, <abbr title="California">CA</abbr></td>
+    </tr>
+    </tbody>
+</table>
+<script>
+  /*  var paras = document.getElementsByTagName("p");
+    for (var i=0; i<paras.length; i++) {
+        paras[i].onclick = function() {
+            alert("You clicked on a paragraph.");
+        }
+    }
+    window.onload = function(){
+        var para = document.getElementById("example");
+        para.style.color = "red";
+        alert("The font family is "+ para.style.color);
+    }*/
+  function stripeTables() {
+      if (!document.getElementsByTagName) return false;
+      var tables = document.getElementsByTagName("table");
+      var odd,rows;
+      for (var i=0; i<tables.length; i++){
+          odd = false;
+          rows = tables[i].getElementsByTagName("tr");
+          for (var j=0;j<rows.length; j++) {
+              if (odd == true) {
+                  rows[j].style.backgroundColor = "#e6e6e6";
+                  odd = false;
+              } else {
+                  odd = true;
+              }
+          }
+  }
+  stripeTables();
+  function highlightRows(){
+      if(!document.getElementsByTagName) return false;
+      var rows = document.getElementsByTagName("tr");
+      for (var i=0; i<rows.length; i++) {
+          rows[i].onmouseover = function() {
+              this.style.fontWeight = "bold";
+          }
+          rows[i].onmouseout = function() {
+              this.styles.fontWeight = "normal";
+          }
+      }
+  }
+  highlightRows();
+  function Person (a, b) {
+      var total = a + b;
+      return total;
+  }
+  alert(Person(2, 4));
+  /*var person1 = new Person();
+  person1.name = 'Jiang';
+  console.log(person1.name);*/
+ /* Person.prototype.name = 'jiang';
+  var person1 = new Person();
+  var person2 = new Person();
+  console.log(person1.name);
+  console.log(person2.name);
+  alert("person1 = " + person1.name);
+  alert("person2 = " + person2.name);*/
+</script>
+</body>
+</html>

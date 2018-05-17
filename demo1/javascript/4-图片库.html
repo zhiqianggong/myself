@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Georgia-Italic;
+            background: #eee;
+        }
+        
+        ul {
+            
+        }
+        img {
+            display: block;
+            margin: auto;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul>
+    <li><a href="../images/demob.png" title="A fireworks display" onclick="showPic(this);return false;"> Fireworks</a></li>
+    <li><a href="../images/demo3.png" title="A cup of black coffee" onclick="showPic(this);return false;"> coffee</a></li>
+    <li><a href="../images/demo4.png" title="A red, red rose" onclick="showPic(this);return false;"> rose</a></li>
+    <li><a href="../images/demo5.png" title="The famous clock" onclick="showPic(this);return false;"> big ben</a></li>
+</ul>
+<img id="placeholder" src="../images/demob.png" alt="my image gallery" />
+<p id="description">Choose an image.</p>
+<script>
+    /*
+    * 4－图片库
+    * childNodes 获取任何一个元素的所有子元素
+    * nodeType 获取属性
+    * nodeValue 得到或设置一个节点的值
+    *firstChild 获取数组第一个元素
+    *lastChild 获取数组最后一个元素
+    *
+    * */
+    function showPic(whichpic){
+        var source = whichpic.getAttribute("href"); //创建变量存放href
+        var placeholder = document.getElementById("placeholder");
+        placeholder.setAttribute("src",source);
+        var text = whichpic.getAttribute("title");  //创建变量存放title
+        var description = document.getElementById("description");
+        description.firstChild.nodeValue = text;
+    }
+   /* whichpic.getAttribute("href");*/
+/*   function countBodyChildren(){
+       var body_element = document.getElementsByTagName("body")[0];
+//       alert(body_element.childNodes.length);
+       alert(body_element.nodeType);
+   }*/
+
+</script>
+</body>
+</html>
